@@ -1,9 +1,9 @@
-const { GraphQlServer } = require("graphql-yoga");
+const { GraphQLServer } = require("graphql-yoga");
 
 const typeDefs = `
-  type Query {
-    info: String!
-  }
+type Query {
+  info: String!
+}
 `;
 
 const resolvers = {
@@ -12,7 +12,7 @@ const resolvers = {
   }
 };
 
-const server = new GraphQlServer({
+const server = new GraphQLServer({
   typeDefs,
   resolvers
 });
