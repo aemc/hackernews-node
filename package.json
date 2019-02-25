@@ -1,0 +1,12 @@
+{
+  "name": "hackernews-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aemc/hackernews-node.git",
+  "author": "aemc <aemlcruz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4",
+    "prettier": "^1.16.4"
+  }
+}
