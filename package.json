@@ -6,7 +6,7 @@
   "author": "aemc <aemlcruz@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.17.4",
+    "graphql-yoga": "^1.18.3",
     "prettier": "^2.2.1"
   }
 }
